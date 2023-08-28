@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 10px 0;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+header h1,
+section h2 {
+    font-family: 'Bowlby One SC', cursive;
+    font-weight: lighter;
+}
+
+body {
+    font-family: 'Bungee', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 20px;
+}
+
+header h1
+section h2 {
+    font-weight: lighter;
+}
+
+header nav li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 10px;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tenis img {
+    height: 1000px;
+}
+
+.tenis1 img {
+    height: 150px;
+    margin-left: 10px;
+}
+
+.tenis2 img {
+    height: 150px;
+    margin-left: 10px;
+}
+
+.tenis3 img {
+    height: 150px;
+    margin-left: 10px;
+}
+
+.marcas img {
+    height: 120px ;
+    margin-left: 10px;
+    margin: 10;
+    display: inline;
+}
+
+div h2 {
+    padding: 10px ;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+form input,
+form button {
+    display: block;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.cadastro {
+    margin: 10px;
+}
+
+form button {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: none;
+}
+
+footer {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 50px ;
+}
+
+.history {
+    padding: 0px 0px 10px;
+}
